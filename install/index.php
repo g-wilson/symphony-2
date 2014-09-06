@@ -28,13 +28,13 @@
 	define('DOCROOT', $clean_path);
 
 	// Required boot components
-	require_once(DOCROOT . '/symphony/lib/boot/bundle.php');
-	require_once(DOCROOT . '/symphony/lib/boot/autoload.php');
-
 	define('VERSION', '2.5.1');
 	define('INSTALL', DOCROOT . '/install');
+	require_once(DOCROOT . '/symphony/lib/boot/bundle.php');
+
 	define('INSTALL_LOGS', MANIFEST . '/logs');
 	define('INSTALL_URL', URL . '/install');
+	require_once(DOCROOT . '/symphony/lib/boot/autoload.php');
 
 	// If prompt to remove, delete the entire `/install` directory
 	// and then redirect to Symphony

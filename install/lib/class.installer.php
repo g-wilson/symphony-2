@@ -1,11 +1,5 @@
 <?php
 
-	require_once(CORE . '/class.administration.php');
-	require_once(TOOLKIT . '/class.cryptography.php');
-	require_once(TOOLKIT . '/class.lang.php');
-
-	require_once(INSTALL . '/lib/class.installerpage.php');
-
 	Class Installer extends Administration {
 
 		/**

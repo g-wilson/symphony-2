@@ -4,8 +4,6 @@
      * @package boot
      */
 
-    require_once DOCROOT . '/symphony/lib/boot/autoload.php';
-
     if(!defined('PHP_VERSION_ID'))
     {
         $version = PHP_VERSION;
